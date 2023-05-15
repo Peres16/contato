@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+</head>
+<body>
+    <main>
+        <form action="teste.html">
+            Nome
+            <input type="text" id="nome" name="nome"
+                   required placeholder="Digite seu nome completo">
+        </br>
+            Data de nascimento
+            <input type="date" id="nascimento" name="nascimento">
+    </br>
+
+        Email
+        <input type="email" id="email" name="email"
+                placeholder="Informe seu melhor Email">
+
+                Sexo: <br>
+               <input type="radio" id="feminino" name="Sexo">
+               Feminino <br>
+               <input type="radio" id="Masculino" name="Sexo">
+               Masculino <br>
+
+               Telefone
+               <input type="tel" id="telefone" name="telefone"
+              pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" placeholder="Digite seu telefone">
+               <br>
+               Altura
+               <input type="number" id="altura" name="altura"
+                      placeholder="informe sua altura ">
+                      
+                      <br>
+                      Escolha seu prato favorito <br>
+                      <select id="prato" name="prato">
+                         <option value="escolha">Escolha</option> <br>
+                         <option value="las">Lasanha</option> <br>
+                         <option value="churras">Churrasco</option> <br>
+                         <option value="SP">São paulo</option>
+
+
+
+                    
+            <input type="submit" id="botão" name="botão"
+            value="Enviar">
+            <input type="reset" id="botao2" name="botao2"
+            value="Apagar">
+
+        </form>
+    </main>
+    
+</body>
+</html>
